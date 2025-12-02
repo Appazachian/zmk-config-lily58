@@ -34,14 +34,7 @@
             #binding-cells = <0>;
             bindings = <&macro_press &kp LGUI>, <&macro_press &kp LCTRL>, <&macro_tap &kp SPACE>, <&macro_release &kp LCTRL>, <&macro_release &kp LGUI>;
         };
-/*
-        spotlight: spotlight {
-            label = "spotlight";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_press &kp lgui>, <&macro_tap &kp space>, <&macro_release &kp lgui>;
-        };
-*/
+
         // ---- windows ----
         wemoji: wemoji {
             label = "win_emoji";
